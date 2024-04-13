@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Animais fofos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container p-3 my-3 bg-info text-white">
+        <h1>Animais fofos!</h1>
+        <p>Qual você prefere?</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-right">
+                <img src="https://blog.casadoprodutor.com.br/wp-content/uploads/2018/04/gatinho.jpg" class="img-fluid" alt="Gatinho">
+                <button onclick="redirecionar1()" class="btn btn-primary mt-3">Escolher</button>
+    <script>
+        function redirecionar1() {
+            window.location.href = "cats.html"; 
+        }
+    </script>
+
+            </div>
+
+            <div class="col-sm-6 text-right">
+                <img src="https://static.vecteezy.com/ti/fotos-gratis/p2/8054954-filhotes-de-cachorro-fofos-da-pomerania-misto-de-raca-pequines-cachorro-corre-na-grama-com-felicidade-foto.jpg" class="img-fluid" alt="Filhotes de cachorro">
+               <button onclick="redirecionar2()" class="btn btn-primary mt-3">Escolher</button>
+
+    <script>
+        function redirecionar2() {
+            window.location.href = "dogs.html"; 
+        }
+    </script>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p> <br/> </p>
+        <p class="alert alert-danger">
+            <strong> Atenção! Gatos podem provocar intensa alergia em pessoas suscetíveis. </strong>
+        </p>
+       <p class="alert alert-danger">
+            <strong> Atenção! Cachorros são mais barulhentos e podem incomodar os vizinhos.</strong>
+        </p>
+    </div>
+
+</body>
+
+</html>
