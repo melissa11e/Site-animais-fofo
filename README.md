@@ -5,6 +5,7 @@ Estou aprendendo html e essa página foi um passo muito importante para esclarec
 Basicamente, é uma página onde você pode escolher entre um cachorro e um gato, e embora seja uma concepção simples, são coisas que acabei de aprender e queria colocar em prática.
 abaixo das imagens, possuem dois botões com tags <script> simples, onde ao clicar, você é redirecionado a outra página.
 
+- O arquivo "container.html" é a página que leva às outras páginas.
 
 Anotação para o eu do futuro e colegas bucando conhecimento: os valores na tag de abertura do botão precisam ser
 - <button onclick="variável p/definir a ação()"> Texto </button>
